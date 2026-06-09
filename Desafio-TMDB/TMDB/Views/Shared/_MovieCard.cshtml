@@ -1,0 +1,20 @@
+@model TMDB.Models.Movie
+
+<div class="movie-card h-100">
+    <div class="movie-poster-wrapper">
+        <img src="@Model.PosterUrl" class="movie-poster" alt="Pôster de @Model.Title" loading="lazy" />
+        <div class="movie-rating">
+            <span class="rating-badge">@Model.VoteAverage.ToString("0.0")</span>
+        </div>
+    </div>
+    <div class="movie-info">
+        <h5 class="movie-title" title="@Model.Title">@Model.Title</h5>
+        <p class="movie-date">
+            @if (!string.IsNullOrEmpty(Model.ReleaseDate) && Model.ReleaseDate.Length >= 4)
+            {
+                <span>@Model.ReleaseDate.Substring(0, 4)</span>
+            }
+        </p>
+        <p class="movie-overview">@Model.Overview</p>
+    </div>
+</div>

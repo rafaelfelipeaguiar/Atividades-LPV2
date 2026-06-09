@@ -1,0 +1,24 @@
+@model List<TMDB.Models.Movie>
+@{
+    ViewData["Title"] = "CineTrends - Filmes Populares";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/movies.css" asp-append-version="true" />
+}
+
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold text-light">CineTrends</h1>
+        <p class="lead text-secondary">Os filmes mais populares da semana</p>
+    </div>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+        @foreach (var movie in Model)
+        {
+            <div class="col">
+                @await Html.PartialAsync("_MovieCard", movie)
+            </div>
+        }
+    </div>
+</div>
