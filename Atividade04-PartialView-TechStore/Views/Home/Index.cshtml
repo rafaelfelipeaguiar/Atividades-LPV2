@@ -1,0 +1,14 @@
+@model IEnumerable<AulaPartialView.Models.Product>
+
+@{
+    ViewData["Title"] = "Catálogo de Produtos";
+}
+
+<div style="padding: 20px;">
+    <h1>Catálogo de Produtos - TechStore</h1>
+    
+    @foreach (var product in Model)
+    {
+        @await Html.PartialAsync("_ProductCard", product)
+    }
+</div>
