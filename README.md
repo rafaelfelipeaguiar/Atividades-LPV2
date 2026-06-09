@@ -7,6 +7,7 @@ Repositório para armazenar as atividades da disciplina **Linguagem de Programa�
 Cada pasta representa uma atividade diferente:
 
 - **Atividade01** - Projeto ASP.NET MVC inicial
+- **Atividade02** - Validações avançadas com Data Annotations (Cliente Premium)
 
 ## Como usar
 
