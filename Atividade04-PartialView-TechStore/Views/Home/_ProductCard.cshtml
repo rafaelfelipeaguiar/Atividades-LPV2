@@ -1,0 +1,7 @@
+@model AulaPartialView.Models.Product
+
+<div style="border: 1px solid #ccc; border-radius: 8px; padding: 16px; margin-bottom: 16px; max-width: 300px;">
+    <h3>@Model.Name</h3>
+    <p><strong>Preço:</strong> @Model.Price.ToString("C")</p>
+    <p><strong>Descrição:</strong> @Model.Description</p>
+</div>
