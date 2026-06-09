@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atividade LPV2", "Atividade LPV2\Atividade LPV2.csproj", "{A25BA8BA-903A-43BD-8417-3A0C1DDDD13C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A25BA8BA-903A-43BD-8417-3A0C1DDDD13C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A25BA8BA-903A-43BD-8417-3A0C1DDDD13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A25BA8BA-903A-43BD-8417-3A0C1DDDD13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A25BA8BA-903A-43BD-8417-3A0C1DDDD13C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
